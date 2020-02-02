@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+      auto-index-creation: false
+
+swagger.api:
+  enabled: true
+  title: "User Service"
+  description: "Sample Micro-service - user service - Mongodb based"
+  terms-of-service-url: "https://oauth.net/2"
+  version: "v1.0.0"
+  controller:
+    base-package: "org.akj.springboot"
+  contact:
+    name: "Jamie Zhang"
+    email: "akjamie.zhang@outlook.com"
